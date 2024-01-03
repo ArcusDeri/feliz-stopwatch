@@ -125,3 +125,13 @@ build/
 
 # Paket
 paket-files/
+
+# Custom
+project.lock.json
+.ionide.debug
+/src/FelizStopwatch.Client/fable_modules/
+/src/FelizStopwatch.Client/fable_modules/*
+.vs
+.ionide
+*.fs.js
+*.fs.js.map
