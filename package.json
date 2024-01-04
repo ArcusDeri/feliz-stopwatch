@@ -3,7 +3,8 @@
   "scripts": {
     "start": "dotnet tool restore && dotnet fable watch ./src/FelizStopwatch.Client/ --runFast vite",
     "build": "dotnet tool restore && dotnet fable ./src/FelizStopwatch.Client --run vite build",
-    "clean": "dotnet fable clean ./src/FelizStopwatch.Client --yes"
+    "clean": "dotnet fable clean ./src/FelizStopwatch.Client --yes",
+    "format": "dotnet fantomas ./src/*"
   },
   "dependencies": {
     "react": "^18.2.0",
