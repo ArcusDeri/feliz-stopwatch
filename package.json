@@ -3,11 +3,12 @@
   "scripts": {
     "start": "dotnet tool restore && dotnet fable watch ./src/FelizStopwatch.Client/ --runFast vite",
     "build": "dotnet tool restore && dotnet fable ./src/FelizStopwatch.Client --run vite build",
-    "clean": "dotnet fable clean src --yes"
+    "clean": "dotnet fable clean ./src/FelizStopwatch.Client --yes"
   },
   "dependencies": {
     "react": "^18.2.0",
-    "react-dom": "^18.2.0"
+    "react-dom": "^18.2.0",
+    "use-sync-external-store": "^1.2.0"
   },
   "devDependencies": {
     "@vitejs/plugin-react": "^3.1.0",

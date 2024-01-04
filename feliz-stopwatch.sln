@@ -3,6 +3,10 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.0.31903.59
 MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{BF1EE9F8-BC08-445E-880F-5D2A98EAB1B5}"
+EndProject
+Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "FelizStopwatch.Client", "src\FelizStopwatch.Client\FelizStopwatch.Client.fsproj", "{4AF17DFC-B070-4FC4-BFE0-EC0BF174EA2E}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -10,5 +14,14 @@ Global
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{4AF17DFC-B070-4FC4-BFE0-EC0BF174EA2E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4AF17DFC-B070-4FC4-BFE0-EC0BF174EA2E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4AF17DFC-B070-4FC4-BFE0-EC0BF174EA2E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4AF17DFC-B070-4FC4-BFE0-EC0BF174EA2E}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{4AF17DFC-B070-4FC4-BFE0-EC0BF174EA2E} = {BF1EE9F8-BC08-445E-880F-5D2A98EAB1B5}
 	EndGlobalSection
 EndGlobal
